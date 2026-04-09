@@ -1,0 +1,7 @@
+Route::resource('country', CountryController::class);
+
+// District Routes
+Route::resource('district', DistrictController::class);
+
+// Student Routes
+Route::resource('student', StudentController::class);
